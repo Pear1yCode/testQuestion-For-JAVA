@@ -357,23 +357,21 @@ public class mbti {
         } else if (mbti.equals("CGDM")) {
             System.out.println("당신은 신중하고 귀신을 더 무서워하지만 귀신을 믿지 않는 공포 분위기를 즐기는 사람");
         } else if (mbti.equals("BHBT")) {
-            System.out.println("");
+            System.out.println("당신은 용감하고 사람을 더 무서워하지만 귀신을 믿는 공포 스릴을 즐기는 사람");
         } else if (mbti.equals("BHBM")) {
-            System.out.println("");
+            System.out.println("당신은 용감하고 사람을 더 무서워하지만 귀신을 믿는 공포 분위기를 즐기는 사람");
         } else if (mbti.equals("BHDT")) {
-            System.out.println("");
+            System.out.println("당신은 용감하나 사람을 더 무서워하고 귀신을 믿지 않지만 공포 스릴을 즐기는 사람");
         } else if (mbti.equals("BHDM")) {
-            System.out.println("");
+            System.out.println("당신은 용감하나 사람을 더 무서워하고 귀신을 믿지 않지만 공포 분위기를 즐기는 사람 ");
         } else if (mbti.equals("BGBT")) {
-            System.out.println("");
+            System.out.println("당신은 용감하나 귀신을 더 무서워하며 귀신을 믿고 공포 스릴을 즐기는 사람");
         } else if (mbti.equals("BGBM")) {
-            System.out.println("");
-        } else if (mbti.equals("BGBM")) {
-            System.out.println("");
+            System.out.println("당신은 용감하나 귀신을 더 무서워하며 귀신을 믿고 공포 분위기를 즐기는 사람");
         } else if (mbti.equals("BGDT")) {
-            System.out.println("");
+            System.out.println("당신은 용감하나 귀신을 더 무서워하지만 귀신을 믿지 않고 공포 스릴을 즐기는 사람");
         } else if (mbti.equals("BGDM")) {
-            System.out.println("");
+            System.out.println("당신은 용감하나 귀신을 더 무서워하지만 귀신을 믿지 않고 공포 분위기를 즐기는 사람");
         }
     }
 }

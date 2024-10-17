@@ -345,7 +345,7 @@ public class mbti {
         } else if (mbti.equals("CHBM")) {
             System.out.println("당신은 신중하고 사람이 더 무서우며 귀신을 믿는 공포분위기를 즐기는 사람");
         } else if (mbti.equals("CHDT")) {
-            System.out.println("당신은 신중하고 사람이 더 무서우며 귀신을 믿지 않지만 공포스릴을 즐기는사람");
+            System.out.println("귀신을 믿지는 않지만 현실적인 공포 스릴이 좋아");
         } else if (mbti.equals("CHDM")) {
             System.out.println("당신은 신중하고 사람이 더 무서우며 귀신을 믿지 않지만 공포 분위기를 즐기는 사람");
         } else if (mbti.equals("CGBT")) {

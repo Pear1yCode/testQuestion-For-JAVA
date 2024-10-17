@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class mbti {
     private static int CB; // CB ++ 신중함 , CB-- 용감함 / 신중함 = Cautious, 용감함 = Brave => 실제 mbti와 매칭을 해봤을 때 I와 E로 매칭이 가능하여 이해함에 도움이되는데 E인데도 여기서는 C가 나올 수 있기 때문에 다른점을 기대할 수 있다.
     private static int HG; // HG ++ 실체가 무섭다, HG -- 실체가 아닌게 무섭다/ H = Humna, G = Ghost => 실제 mbti에서 n과 s로 매칭이 가능하여 상상하는 n과 상상하지 않는 s로 나눈 것처럼 꽤나 유사하게 표현할 수 있을 것으로 전망한다.
-    private static int BD; // BD ++ 귀신을 믿는다, BD -- 귀신을 믿지 않는다. / B = Believe, D = Don't => 수정 필요할듯? 2번째와 꽤나 비슷하다. t와 f로 t는 감정적으로 동요하지않고 f는 감정적으로 동요할 수 있는 부분을 매칭해야할 것 같다.
+    private static int SE; // SE ++ 무서운건 그 이상으로 무언가가 존재한다., SE -- 무서운건 그 이상도 이하도 아닐뿐 무서운 감정 뿐이다. / 공포는 그저 즐기기 위한 요소일뿐 그 이상도 이하도 아니다.
     private static int TM; // TM ++ 스릴이 좋다, TM -- 분위기가 좋다 / T = thrill, M = mood => p랑 j를 매칭했을때 계획적이지 않음과 계획적임을 미루어보아 스릴이 좋은 것도 나름 p와 j로 매칭이 가능하여 그냥 둬도 될 것으로 보인다.
     Scanner sc = new Scanner(System.in);
 
@@ -175,7 +175,7 @@ public class mbti {
             }
             break;
         }
-        // BD 구분
+        // SE 구분
         while (true) {
             System.out.println("빙의는 허무맹랑한 지어낸 헛소문일 뿐이다.");
             System.out.println("1. 예, 2. 아니오");

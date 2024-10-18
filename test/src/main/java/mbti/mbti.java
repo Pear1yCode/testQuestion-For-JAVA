@@ -96,6 +96,41 @@ public class mbti {
             }
             break;
         }
+        while (true) {
+            System.out.println("납치를 당해 위험한 상황이다.");
+            System.out.println("다행히 풀려있던 밧줄이 헐거워 풀 수 있었고 옆에서 무기를 찾을 수 있었다.");
+            System.out.println("현재 바깥이 조용하고 새소리가 나는 것으로 보아 낮인 것 같다는 판단을 할 수 있었고");
+            System.out.println("탈출시도를 하거나 여기서 기다렸다가 납치범이 돌아오면 습격을 할 수 있을 것 같다.");
+            System.out.println("어떻게 할까?");
+            System.out.println("1. 탈출을 시도한다.");
+            System.out.println("2. 아직 있을지 모른다. 기다렸다가 기습한다.");
+            System.out.print("당신의 선택은? : ");
+            int answer06 = sc.nextInt();
+            switch (answer06) {
+                case 1 : CB --; break;
+                case 2 : CB ++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요."); continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("시골이지만 드디어 내 집을 마련했다.");
+            System.out.println("2층이나 되는 굉장히 넓은 집이다.");
+            System.out.println("혼자 살고 있지만 나에게도 가족이 생기면 굉장히 소중한 집이 될 것 같다.");
+            System.out.println("지금 시간은 오후 11시, 그 때 2층에서 이상한 소리가 들렸고 잘못들었다고 하기엔 굉장히 소름끼치는 소리었다.");
+            System.out.println("어떻게 할까?");
+            System.out.println("1. 설마 집에 누군가 들어왔겠어? 무기가 될만한 것을 찾아서 위로 올라가서 확인한다.");
+            System.out.println("2. 아무리 생각해도 이건 무언가 침입한 것이다. 밖으로 도주한 뒤 안전한 곳에서 경찰에게 도움을 요청한다.");
+            int answer07 = sc.nextInt();
+            switch (answer07) {
+                case 1 : CB --; break;
+                case 2 : CB ++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요."); continue;
+            }
+            break;
+        }
         // HG 구분용
         while (true) {
             System.out.println("사람이 귀신보다 더 무섭다");

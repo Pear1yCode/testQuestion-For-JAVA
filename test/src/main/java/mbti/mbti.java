@@ -122,6 +122,7 @@ public class mbti {
             System.out.println("어떻게 할까?");
             System.out.println("1. 설마 집에 누군가 들어왔겠어? 무기가 될만한 것을 찾아서 위로 올라가서 확인한다.");
             System.out.println("2. 아무리 생각해도 이건 무언가 침입한 것이다. 밖으로 도주한 뒤 안전한 곳에서 경찰에게 도움을 요청한다.");
+            System.out.print("당신의 선택은 ? : ");
             int answer07 = sc.nextInt();
             switch (answer07) {
                 case 1 : CB --; break;
@@ -131,7 +132,65 @@ public class mbti {
             }
             break;
         }
+        while (true) {
+            System.out.println("나는 산행을 좋아하여 국내 산행은 모두 마치고 외국에 있는 모든 산행을 하기 마음먹어 여행을 다니고 있다.");
+            System.out.println("오늘은 산이 너무 험해 길을 잃고 말았다.");
+            System.out.println("그러나 다행히 산 중턱에서 우거진 숲속에 둘러쌓여진 오두막을 발견했고 겉으로 보기에는 최근까지 누군가가 살았던 흔적이 있다.");
+            System.out.println("불안한 점은 일반적인 오두막이라기보다는 무언가를 잡는 곳이었다는 느낌이 강하고 일부러 이 안쪽에 지어놓았다는 직감이 들었다.");
+            System.out.println("해가 지기 직전이라서 그냥 갔다가는 야생동물 등의 위험에 노출될 것이다.");
+            System.out.println("어떻게 할까?");
+            System.out.println("1. 그냥 일을 위해 사용하던 오두막일 것이다. 입구에서 주인을 기다리거나 오두막에 들어가본다. (숨어서 지켜볼 수 있는 방법도 있다.)");
+            System.out.println("2. 무슨 일이 있을지 모르는데 해가 지더라도 더 길을 찾아 나아가본다.");
+            System.out.print("당신의 선택은 ? : ");
+            int answer08 = sc.nextInt();
+            switch (answer08) {
+                case 1 :
+                    CB --; break;
+                case 2 :
+                    CB ++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요."); continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("뒤에서 누군가 쫓아오고 있다.");
+            System.out.println("뛰어서 도망가고 있지만 점점 숨이 차는 상황이다.");
+            System.out.println("측면 모퉁이를 돌았을 때 내가 할 행동은?");
+            System.out.println("1. 모퉁이의 숨을 공간을 찾아 재빨리 들어간다.");
+            System.out.println("2. 모퉁이를 돌아 쓰레기 더미에서 무기를 찾아 추격자를 기다렸다가 습격한다.");
+            System.out.print("당신의 선택은 ? : ");
+            int answer09 = sc.nextInt();
+            switch (answer09) {
+                case 1 :
+                    CB ++; break;
+                case 2 :
+                    CB --; break;
+                default:
+                    System.out.println("올바르게 입력해주세요."); continue;
+            }
+            break;
+        }
         // HG 구분용
+        while (true) {
+            System.out.println("1000평짜리 5층 집에서 일주일만 이것과 함께 살면 100억을 준다고 한다.");
+            System.out.println("집이 매우 넓어서 충분히 숨을 수 있을 것 같다.");
+            System.out.println("어떤 것과 같이 살까?");
+            System.out.println("1. 귀신");
+            System.out.println("2. 살인마");
+            System.out.print("당신의 선택은 ? : ");
+            int answer1 = sc.nextInt();
+            switch (answer1) {
+                case 1 :
+                    HG++; break;
+                case 2 :
+                    HG--; break;
+                default:
+                    System.out.println("올바르게 입력해주세요.");
+                    continue;
+            }
+            break;
+        }
         while (true) {
             System.out.println("사람이 귀신보다 더 무섭다");
             System.out.println("1. 예, 2. 아니오");
@@ -197,7 +256,7 @@ public class mbti {
         while (true) {
             System.out.println("혼자 자취하고 있는 나는 오늘도 일을 마치고 집으로 돌아왔다.");
             System.out.println("모든 일을 마무리하고 내 방으로 들어왔을 때 침대 밑의 무언가와 눈이 마주쳤다.");
-            System.out.println("그건 누굴까?");
+            System.out.println("그건 무엇이었을까?");
             System.out.println("1. 사람, 2. 귀신");
             System.out.print("당신의 선택은 ? : ");
             int answer6 = sc.nextInt();
@@ -210,6 +269,47 @@ public class mbti {
             }
             break;
         }
+        while (true) {
+            System.out.println("1. 살인마와 1층에서 10층까지 추격전찍기");
+            System.out.println("2. 귀신이랑 하룻동안 엘레베이터에 갇혀서 데이트하기");
+            System.out.print("당신의 선택은 ? : ");
+            int answer7 = sc.nextInt();
+            switch (answer7) {
+                case 1 : HG --; break;
+                case 2 : HG ++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요.");
+                    continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("1. 살인마 뿐만 아니라 귀신도 나에게 해를 입힐 수 있다.");
+            System.out.println("2. 귀신은 나에게 해를 입힐 수 없다. 사람만 조심하면 된다.");
+            System.out.print("당신의 선택은 ? : ");
+            int answer8 = sc.nextInt();
+            switch (answer8) {
+                case 1 : HG ++; SE ++; break;
+                case 2 : HG --; SE --; break;
+                default:
+                    System.out.println("올바르게 입력해주세요.");
+                    continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("눈을 감고 머리를 감을 때 눈을 뜰 수 없는 상황에서 앞에서 무언가 느껴진다.");
+            System.out.println("무엇이 상상되는가?");
+            System.out.println("1. 귀신");
+            System.out.println("2. 괴물");
+            System.out.print("당신의 선택은 ? : ");
+            int answer9 = sc.nextInt();
+            switch (answer9) {
+                case 1 : HG ++; break;
+                case 2 : HG --; break;
+            }
+            break;
+        }
         // SE 구분
         while (true) {
             System.out.println("빙의는 허무맹랑한 지어낸 헛소문일 뿐이다.");
@@ -217,8 +317,8 @@ public class mbti {
             System.out.print("당신의 선택은 ? : ");
             int answer001 = sc.nextInt();
             switch (answer001) {
-                case 1 : BD--; break;
-                case 2 : BD++; break;
+                case 1 : SE--; break;
+                case 2 : SE++; break;
                 default:
                     System.out.println("올바르게 입력해주세요.");
                     continue;
@@ -226,13 +326,13 @@ public class mbti {
             break;
         }
         while (true) {
-            System.out.println("귀신을 본적도 없고 믿지도 않는다.");
+            System.out.println("공포는 도파민을 위한 수단일 뿐 그 이상도 이하도 아니다.");
             System.out.println("1. 예, 2. 아니오");
             System.out.print("당신의 선택은 ? : ");
             int answer002 = sc.nextInt();
             switch (answer002) {
-                case 1 : BD --; break;
-                case 2 : BD ++; break;
+                case 1 : SE --; break;
+                case 2 : SE ++; break;
                 default:
                     System.out.println("올바르게 입력해주세요.");
                     continue;
@@ -240,13 +340,13 @@ public class mbti {
             break;
         }
         while (true) {
-            System.out.println("가끔 무언가 영적인 존재가 있다고 느낀다.");
+            System.out.println("귀신을 봤다는 것은 그저 피곤하거나 헛것을 본 것일 뿐 의미부여 할 필요 없다.");
             System.out.println("1. 예, 2. 아니오");
             System.out.print("당신의 선택은 ? : ");
             int answer003 = sc.nextInt();
             switch (answer003) {
-                case 1 : BD ++; break;
-                case 2 : BD --; break;
+                case 1 : SE --; break;
+                case 2 : SE ++; break;
                 default:
                     System.out.println("올바르게 입력해주세요.");
                     continue;
@@ -254,13 +354,13 @@ public class mbti {
             break;
         }
         while (true) {
-            System.out.println("사람들이 헛것을 보는 것은 피곤해서가 아니라 실제로 귀신일 것이다.");
+            System.out.println("사람에게는 기라는 것이 존재한다.");
             System.out.println("1. 예, 2. 아니오");
             System.out.print("당신의 선택은 ? : ");
             int answer004 = sc.nextInt();
             switch (answer004) {
-                case 1 : BD ++; break;
-                case 2 : BD --; break;
+                case 1 : SE ++; break;
+                case 2 : SE --; break;
                 default:
                     System.out.println("올바르게 입력해주세요.");
                     continue;
@@ -268,16 +368,71 @@ public class mbti {
             break;
         }
         while (true) {
-            System.out.println("수호령이 있다는 말은 진짜다.");
+            System.out.println("정말 오래된 건물이 있다");
+            System.out.println("해당 건물은 저주받았다는 소문에 아무도 가지 않는다.");
+            System.out.println("심지어 폐가가 된 지 엄청나게 오래됐다.");
+            System.out.println("그 건물에 들어가면 저주받는다는 소문이 있는데");
+            System.out.println("가서 하룻밤만 자고오면 갔다오고 한달 뒤에 1억을 준다고한다.");
+            System.out.println("한달 뒤라는 말이 찝찝하긴 하지만 1억이 수중에 들어온다고 생각하니 고민된다.");
+            System.out.println("어떻게 할까?");
             System.out.println("1. 예, 2. 아니오");
             System.out.print("당신의 선택은 ? : ");
             int answer005 = sc.nextInt();
             switch (answer005) {
-                case 1 : BD ++; break;
-                case 2 : BD --; break;
+                case 1 : SE --; break;
+                case 2 : SE ++; break;
                 default:
                     System.out.println("올바르게 입력해주세요.");
                     continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("나는 미신을 믿는다.");
+            System.out.println("예시) 의자를 빼놓고 자면 의자에 귀신이 앉아서 지켜본다.");
+            System.out.println("예시) 문을 닫거나 제대로 열지 않고 틈을 만들어 놓으면 틈새로 무언가 지켜본다.");
+            System.out.println("예시) 베개를 세워놓으면 부모님이 일찍 돌아가신다.");
+            System.out.println("예시) 다리를 떨면 복이 떨어진다. -> 실제로는 좋은 효과밖에 없음");
+            System.out.println("혹은 미신으로 인한 강박증을 갖고있다.");
+            System.out.println("이에 동의하는가?");
+            System.out.println("1. 예, 2. 아니오");
+            System.out.print("당신의 선택은 ? : ");
+            int answer006 = sc.nextInt();
+            switch (answer006) {
+                case 1 : SE ++; break;
+                case 2 : SE --; break;
+                default:
+                    System.out.println("올바른 번호를 입력해주세요."); continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("우리나라에서 진행하는 굿과 외국에서 하는 퇴마의식 등을 보았을 때");
+            System.out.println("분명 무언가 존재하는 것이기 때문에 나는 이러한 의식을 믿는다.");
+            System.out.println("1. 예, 2. 아니오");
+            System.out.println("당신의 선택은 ? : ");
+            int answer007 = sc.nextInt();
+            switch (answer007) {
+                case 1 : SE ++; break;
+                case 2 : SE --; break;
+                default:
+                    System.out.println("올바른 번호를 입력해주세요."); continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("집을 구매하려고 하는데 두개의 매물이 있다.");
+            System.out.println("무엇을 선택할까?");
+            System.out.println("1. 소문이 안좋고 저주받았다는 소문의 아무도 살지 않아온 100평의 집");
+            System.out.println("2. 아무 문제없지만 비싼 25평의 집");
+            System.out.println("참고로 1번 집은 이전 주인이 실종됐고 새로 들어온 주인도 실종됐다는 이야기가 있다.");
+            System.out.print("당신의 선택은 ? : ");
+            int answer008 = sc.nextInt();
+            switch (answer008) {
+                case 1 : SE --; break;
+                case 2 : SE ++; break;
+                default:
+                    System.out.println("올바른 번호를 입력해주세요."); continue;
             }
             break;
         }
@@ -354,6 +509,63 @@ public class mbti {
             }
             break;
         }
+        while (true) {
+            System.out.println("공포라는 장르에서 BGM이 없이 무섭게 만드는 것은 불가능에 가깝다.");
+            System.out.println("1. 예, 2. 아니오");
+            System.out.print("당신의 선택은 ? : ");
+            int tmAnswer6 = sc.nextInt();
+            switch (tmAnswer6) {
+                case 1 : TM--; break;
+                case 2 : TM++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요.");
+                    continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("점프스퀘어(갑툭튀)에서 사람을 놀라게 하는 요소는");
+            System.out.println("청각적인 요소보다 시각적인 요소이다.");
+            System.out.println("1. 예, 2. 아니오");
+            System.out.print("당신의 선택은 ? : ");
+            int tmAnswer7 = sc.nextInt();
+            switch (tmAnswer7) {
+                case 1 : TM--; break;
+                case 2 : TM++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요.");
+                    continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("1. 진정한 공포게임의 명작이라함은 분위기의 연출이다.");
+            System.out.println("2. 진정한 공포게임은 분위기 뿐만 아니라 시각적인 뛰어남이 필요하다.");
+            System.out.print("당신의 선택은 ? : ");
+            int tmAnswer8 = sc.nextInt();
+            switch (tmAnswer8) {
+                case 1 : TM--; break;
+                case 2 : TM++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요");
+                    continue;
+            }
+            break;
+        }
+        while (true) {
+            System.out.println("1. 공포 장르는 영화든 게임이든 스토리가 더 중요하다.");
+            System.out.println("2. 공포 장르는 영화든 게임이든 무서운게 더 중요하다.");
+            System.out.print("당신의 선택은 ? : ");
+            int tmAnswer9 = sc.nextInt();
+            switch (tmAnswer9) {
+                case 1 : TM--; break;
+                case 2 : TM++; break;
+                default:
+                    System.out.println("올바르게 입력해주세요.");
+                    continue;
+            }
+            break;
+        }
         if (CB >= 1) {
             mbti += "C";
         } else if (CB <= -1) {
@@ -364,10 +576,10 @@ public class mbti {
         } else if (HG <= -1) {
             mbti += "G";
         }
-        if (BD >= 1) {
-            mbti += "B";
-        } else if (BD <= -1) {
-            mbti += "D";
+        if (SE >= 1) {
+            mbti += "S";
+        } else if (SE <= -1) {
+            mbti += "E";
         }
         if (TM >= 1) {
             mbti += "T";
@@ -375,38 +587,38 @@ public class mbti {
             mbti += "M";
         }
         System.out.println(mbti);
-        if(mbti.equals("CHBT")) {
-            System.out.println("당신은 신중하고 사람이 더 무서우며 귀신을 믿는 공포스릴을 즐기는 사람");
-        } else if (mbti.equals("CHBM")) {
-            System.out.println("당신은 신중하고 사람이 더 무서우며 귀신을 믿는 공포분위기를 즐기는 사람");
-        } else if (mbti.equals("CHDT")) {
-            System.out.println("귀신을 믿지는 않지만 현실적인 공포 스릴이 좋아");
-        } else if (mbti.equals("CHDM")) {
-            System.out.println("당신은 신중하고 사람이 더 무서우며 귀신을 믿지 않지만 공포 분위기를 즐기는 사람");
-        } else if (mbti.equals("CGBT")) {
-            System.out.println("당신은 신중하고 귀신이 더 무서우며 귀신을 믿는 공포 스릴을 즐기는 사람");
-        } else if (mbti.equals("CGBM")) {
-            System.out.println("당신은 신중하고 귀신이 더 무서우며 귀신을 믿는 공포 분위기를 즐기는 사람");
-        } else if (mbti.equals("CGDT")) {
-            System.out.println("당신은 신중하고 귀신을 더 무서워하지만 귀신을 믿지 않는 공포 스릴을 즐기는 사람");
-        } else if (mbti.equals("CGDM")) {
-            System.out.println("당신은 신중하고 귀신을 더 무서워하지만 귀신을 믿지 않는 공포 분위기를 즐기는 사람");
-        } else if (mbti.equals("BHBT")) {
-            System.out.println("당신은 용감하고 사람을 더 무서워하지만 귀신을 믿는 공포 스릴을 즐기는 사람");
-        } else if (mbti.equals("BHBM")) {
-            System.out.println("당신은 용감하고 사람을 더 무서워하지만 귀신을 믿는 공포 분위기를 즐기는 사람");
-        } else if (mbti.equals("BHDT")) {
-            System.out.println("당신은 용감하나 사람을 더 무서워하고 귀신을 믿지 않지만 공포 스릴을 즐기는 사람");
-        } else if (mbti.equals("BHDM")) {
-            System.out.println("당신은 용감하나 사람을 더 무서워하고 귀신을 믿지 않지만 공포 분위기를 즐기는 사람 ");
-        } else if (mbti.equals("BGBT")) {
-            System.out.println("당신은 용감하나 귀신을 더 무서워하며 귀신을 믿고 공포 스릴을 즐기는 사람");
-        } else if (mbti.equals("BGBM")) {
-            System.out.println("당신은 용감하나 귀신을 더 무서워하며 귀신을 믿고 공포 분위기를 즐기는 사람");
-        } else if (mbti.equals("BGDT")) {
-            System.out.println("당신은 용감하나 귀신을 더 무서워하지만 귀신을 믿지 않고 공포 스릴을 즐기는 사람");
-        } else if (mbti.equals("BGDM")) {
-            System.out.println("당신은 용감하나 귀신을 더 무서워하지만 귀신을 믿지 않고 공포 분위기를 즐기는 사람");
+        if(mbti.equals("CHET")) {
+            System.out.println("성향 : 신중 | 두려움 : 사람 | 공포 : 즐김 | 선호 : 공포스릴");
+        } else if (mbti.equals("CHEM")) {
+            System.out.println("성향 : 신중 | 두려움 : 사람 | 공포 : 즐김 | 선호 : 공포분위기");
+        } else if (mbti.equals("CHST")) {
+            System.out.println("성향 : 신중 | 두려움 : 사람 | 공포 : 진지 | 선호 : 공포스릴");
+        } else if (mbti.equals("CHSM")) {
+            System.out.println("성향 : 신중 | 두려움 : 사람 | 공포 : 진지 | 선호 : 공포분위기");
+        } else if (mbti.equals("CGST")) {
+            System.out.println("성향 : 신중 | 두려움 : 귀신 | 공포 : 진지 | 선호 : 공포스릴");
+        } else if (mbti.equals("CGSM")) {
+            System.out.println("성향 : 신중 | 두려움 : 귀신 | 공포 : 진지 | 선호 : 공포분위기");
+        } else if (mbti.equals("CGET")) {
+            System.out.println("성향 : 신중 | 두려움 : 귀신 | 공포 : 즐김 | 선호 : 공포스릴람");
+        } else if (mbti.equals("CGEM")) {
+            System.out.println("성향 : 신중 | 두려움 : 귀신 | 공포 : 즐김 | 선호 : 공포분위기");
+        } else if (mbti.equals("BHST")) {
+            System.out.println("성향 : 용감 | 두려움 : 사람 | 공포 : 진지 | 선호 : 공포스릴");
+        } else if (mbti.equals("BHSM")) {
+            System.out.println("성향 : 용감 | 두려움 : 사람 | 공포 : 진지 | 선호 : 공포분위기");
+        } else if (mbti.equals("BHET")) {
+            System.out.println("성향 : 용감 | 두려움 : 사람 | 공포 : 즐김 | 선호 : 공포스릴");
+        } else if (mbti.equals("BHEM")) {
+            System.out.println("성향 : 용감 | 두려움 : 사람 | 공포 : 즐김 | 선호 : 공포분위기");
+        } else if (mbti.equals("BGST")) {
+            System.out.println("성향 : 용감 | 두려움 : 귀신 | 공포 : 진지 | 선호 : 공포스릴");
+        } else if (mbti.equals("BGSM")) {
+            System.out.println("성향 : 용감 | 두려움 : 귀신 | 공포 : 진지 | 선호 : 공포분위기");
+        } else if (mbti.equals("BGET")) {
+            System.out.println("성향 : 용감 | 두려움 : 귀신 | 공포 : 즐김 | 선호 : 공포스릴");
+        } else if (mbti.equals("BGEM")) {
+            System.out.println("성향 : 용감 | 두려움 : 귀신 | 공포 : 즐김 | 선호 : 공포분위기");
         }
     }
 }
